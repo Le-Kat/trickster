@@ -28,8 +28,10 @@ However, doing so will vastly limit the construct's capabilities, as it will hav
 ;;;;;
 
 Additionally, the timekeeping abilities of the Knot also change.
-It still keeps a counter that ticks up about 20 times per second, but it no longer starts at zero from its creation.
+It no longer loses it's synchronicity with the passage of time,
+at the cost of being unable to offset the time it reports.
 
 
-Instead, the number it seems to be keeping track of is significantly larger, and now unable to be offset.
+It still keeps a counter that ticks up about 20 times per second,
+but the number it seems to be keeping track of is significantly larger.
 It might even be in the same ballpark as the age of the world itself...

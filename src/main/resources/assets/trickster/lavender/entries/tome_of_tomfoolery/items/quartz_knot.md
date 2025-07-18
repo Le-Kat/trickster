@@ -41,6 +41,10 @@ When a Quartz Knot is queried in this way, it replies with an ever-incrementing 
 starting at zero at its initial creation, and counting up by about twenty every second.
 
 
+What is odd is that this number can get out of sync with the world's time. Having recently woken up,
+one would find that it hasn't counted up while they slept.
+
+
 A message can also be sent into the Knot using a similar method to resynchronize it, 
 and offset its counter by a given number.
 
