@@ -1,1 +1,5 @@
-- Fixed missing datagen assets. (@enjarai)
+- Fixed Amethyst Knots not recharging when cracked. (@enjarai)
+- Fixed Executioner's Deviation. (@enjarai)
+- Fixed being able to activate a full stack of Torment Cores with one spawner. (@enjarai)
+- Changed Cracked Quartz Knots to return daytime instead of gametime, effectively accounting for players sleeping. (@enjarai)
+- Made Constructs always restart when shift-right-clicked. (@enjarai)
